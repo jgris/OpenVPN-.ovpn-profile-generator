@@ -63,7 +63,6 @@ dhcp-option DNS 8.8.8.8
 dhcp-option DNS 8.8.4.4
 sndbuf 393216
 rcvbuf 393216
-resolv-retry infinite
 
 <ca>
 EOF
