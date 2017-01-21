@@ -45,7 +45,6 @@ fi
 
 {
 cat << EOF
-${user}
 tls-client
 dev tun
 remote ${server} ${port} udp
