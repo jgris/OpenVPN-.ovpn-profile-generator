@@ -56,8 +56,7 @@ nobind
 persist-key
 persist-tun
 verb 3
-remote-cert-tls server
-key-direction 1
+tls-auth ta.key 1
 cipher ${server_cipher}
 auth SHA1
 dhcp-option DNS 8.8.8.8
