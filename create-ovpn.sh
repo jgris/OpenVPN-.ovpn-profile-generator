@@ -10,7 +10,12 @@
 server=`hostname -i`
 
 user=${1?"User name is required"}
-port=${2?"The port number is required"}
+if [ ${2} ]
+then
+port=${2}
+else
+port=1194
+fi
 
 # By default all servers specified in *.conf files in the /etc/openvpn/ directory.
 CONF_DIR=/etc/openvpn/
