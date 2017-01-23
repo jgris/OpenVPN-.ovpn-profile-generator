@@ -55,7 +55,6 @@ nobind
 persist-key
 persist-tun
 verb 3
-tls-auth ta.key 1
 key-direction 1
 cipher ${server_cipher}
 auth SHA1
