@@ -1,5 +1,6 @@
 #!/bin/sh
 
+## (c) J. Grishin aka jgris https://github.com/jgris 
 ##
 ## Usage: ./create-ovpn.sh USER_NAME PORT 
 ##
