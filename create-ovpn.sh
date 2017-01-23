@@ -57,7 +57,6 @@ persist-tun
 verb 3
 key-direction 1
 cipher ${server_cipher}
-auth SHA1
 dhcp-option DNS 8.8.8.8
 dhcp-option DNS 8.8.4.4
 sndbuf 393216
